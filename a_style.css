@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+*{
+    position: relative;
+    margin-top: 3vw;
+    background-color: burlywood;
+}   
+.heading{
+    margin-left: 43%;
+    margin-top: -64px;
+    font-family: 'Zen Antique', serif;
+}
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 40vw ;
+    width: 40vw;
+    background: url("Clock.png") no-repeat;
+    background-size: 100%;
+}
+
+#hour,#minute,#second{
+    position: relative;
+    background: black;
+    border-radius: 10px;
+}
+
+#hour{
+    width: 8px;
+    height: 16%;
+    top: 34%;
+    left: 49.1%; 
+    transform-origin: bottom;
+}
+#minute{
+    width: 5.1px;
+    height: 31%;
+    top: -4%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
+
+#second{
+    background-color: red;
+    width: 5.4px;
+    height: 18%;
+    top: -29.8%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
+.footer{
+    font-family: 'Zen Antique', serif;
+    margin: 0%;
+}
